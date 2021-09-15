@@ -1,0 +1,115 @@
+*{
+padding:0;
+margin:0;
+text-decoration:none;
+list-style:none;
+box-sizing:border-box;
+}
+body{
+	background-image:url(S3.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+nav{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+
+}
+label.logo{
+	color:white;
+	font-size:35px;
+	line-height:80px;
+	padding:0 100px;
+	font-weight:bold;
+}
+
+
+
+
+
+.whole{
+	
+    position: relative;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    overflow: hidden;
+    margin-top: 10%;
+    margin-left: 34%; 
+	background-color: rgba(0, 0,0,0.4); 
+    max-width: 660px; 
+	color: aqua;  
+}
+
+
+.donate-button{
+	background-color: #ccc;
+	padding: 5px 10px;
+	border-radius: 30px;
+	border: 1px solid #000;
+	transition: .5s all ease-in;
+	color: #000;
+}
+
+.donate-button:hover{
+	background:linear-gradient(57deg, #00c6a7, #1e4d92);
+}
+
+
+
+.heading{
+
+    text-align:center;
+    font-size:30px;
+    color:white;
+}
+
+.heading h2{
+    margin-top:5%;
+    margin-top:10px;
+    text-align: center;
+ 
+}
+
+
+
+.footer p{
+    position: fixed;
+	height: 70px;
+	width: 100%;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    color: white;
+	bottom: 0;
+	background: rgba(0,0,0,0.4);
+
+}
+
+nav ul{
+	float:right;
+	margin-right:20px;
+}
+nav ul li{
+	display:inline-block;
+	line-height:80px;
+	margin:0 5px;
+}
+nav ul li a{
+	color:white;
+	font-size:18px;
+	padding:7px 13px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+nav ul li a.active,nav ul li a:hover{
+	background:linear-gradient(57deg, #00c6a7, #1e4d92);
+
+	transition:0.20s;
+}
+
+
